@@ -1,0 +1,70 @@
+<!-- Defines our doc as HTML5 -->
+<!DOCTYPE html>
+
+<!-- Sets language -->
+<html lang="en">
+
+<!-- META info (info about our site/app)-->
+<head>
+    <!--(Almost) all known characters -->
+    <meta charset="UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Responsive window behavior -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicons - browser tab icon THIS IS AN EXAMPLE-->
+    <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
+    <!--HTML Title page in browser tab  -->
+
+    <!-- Connect Style Sheet -->
+    <link rel="stylesheet" href="./styles/main.css">
+
+    <title>Semantic HTML</title>
+</head>
+<body>
+    <h1> Semantic HTML </h1>
+    <ul> Semantic HTML is an HTML tag that infers meaning just by a tag name</ul>
+        <ul> ie. header, body, ul, ol, nav, footer, p, article, h1-h6, link and so on.
+                look up <link developer.mozilla.org/en-US/docs/Web/HTML/Element>
+        </ul>
+        <header></header>
+        <body></body>
+        <ul></ul>
+        <li></li>
+        <ol></ol>
+        <nav></nav>
+        <footer></footer>
+        <p></p>
+        <article></article>
+        <h1></h1>
+        <link>
+        <img>
+        <main></main>
+        <aside></aside>
+
+        <!-- Non Semantic HTML -->
+        <div></div>
+        <break></break>
+        <section></section>
+
+        <!-- example -->
+        <footer class="footer">
+            <section class="social">
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-twitter-square"></i>
+                <i class="fab fa-google-plus-square"></i>
+            </section>
+            <section>
+            <form action="">
+                <label for="">Name</label>
+                <input type="text" name="name">
+            </form>
+            </section>
+            <p>&copy; <span id="year"></span> Acme Inc.</p>
+        </footer>
+
+    <!-- Connect Javascript -->
+    <script src="./scripts/app.js"> </script>
+    
+</body>
+</html>
